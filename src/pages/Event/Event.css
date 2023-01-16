@@ -1,0 +1,72 @@
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+    width: 100%;
+    max-width: 1048px;
+    margin-top: 4.3rem;
+    font-size: 3rem;
+    font-weight: 800;
+    color: #F3913B;
+   
+}
+.container,.annual-title{
+    max-width: 1048px;
+}
+.history-container{
+    position: relative;
+    margin-top: 5rem;
+  
+    background-color: #ffd6b1;
+    width: 100%;
+   
+    max-width: 1439px;
+    padding: 1em;
+  
+    
+    
+}
+.history{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   
+}
+.history,.history-title{
+    font-size: 1.5rem;
+    font-weight:800;
+ 
+}
+
+.history,.history-content{
+    width:85%;
+    margin: 0 auto;
+    font-size: 18px;
+    padding:0.5em;
+}
+
+.summary{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+    padding: 2em;
+   
+}
+.details-1,.details-2,.details-3,.details-4,.details-5{
+    width: 100%;
+    padding: 1em;
+    
+   
+}
+.summary-1,.summary-2,.summary-3,.summary-4,.summary-5{
+    width: 100%;
+    color: #F3913B;
+    border-bottom: solid 2px #F3913B ;
+    padding-bottom:3px
+}
+
