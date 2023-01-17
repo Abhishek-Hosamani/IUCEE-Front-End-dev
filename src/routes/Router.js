@@ -1,7 +1,8 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import About from '../pages/About/About';
-import Home from '../pages/Home/Home';
+
+import Home from "../pages/Home/Home"
 import { ROUTES } from './RouterConfig';
 import Navbar from '../components/Navbar/Navbar'
 import Event from '../pages/Event/Event';
@@ -11,8 +12,8 @@ const Router = () => {
         return (
           <>
           <Navbar/>
-            {/* <Element/> */}
-          <Event/>
+          <Element/>
+          {/* <Event/> */}
           </>
         );
       }
