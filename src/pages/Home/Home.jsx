@@ -1,22 +1,60 @@
 import React from 'react'
-import { useNavigate } from 'react-router-dom'
-import { ROUTES } from '../../routes/RouterConfig'
-
+import img from "../../assets/images/img1.png"
+import './home.css'
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
+import Newcard from '../../components/Cards/Newcard'
+import Text from "../../components/Text/Text"
+import flower from "../../assets/Vector.png"
 const Home = () => {
-
-    const navigate = useNavigate()
-
-    const changeDir = (dir) =>{
-        navigate(dir)
-    }
-
   return (
-    <div className='Home'>
-        <div className="text-xl text-[red]">
-            Hello Buddies
-        </div>
-        <button className={`bg-[#3498db] p-[10px] text-[white] rounded-md hover:bg-[red] hover:text-[#3498db]`} onClick={()=>{changeDir(ROUTES.About)}}>Go To About</button>
-    </div>
+   <>
+  <Carousel>
+    <div className='carousel'>
+   <img className="img"src={img} alt="" srcset="" width={"100%"} height={"60%"}/>
+   </div>
+   <div className='carousel'>
+   <img className="img"src={img} alt="" srcset="" width={"100%"} height={"60%"}/>
+   </div>
+
+   <div className='carousel'>
+   <img className="img"src={img} alt="" srcset="" width={"100%"} height={"60%"}/>
+   </div>
+   </Carousel>
+   <div className='herocontainer'>
+    <h2>The Impact of Digital Transformation in the Education Sector</h2>
+    <p>Digital transformation in the education industry helps improve the learning experience for both students and teachers, as well as<br/> other people involved in the process. Such changes focus on improving engagement and accessibility through interactive and<br/> customizable learning.<br/>
+    As a result, online education gets cheaper, more comprehensive, and more inclusive. 
+ 
+</p>
+<h2 style={{paddingTop:"40px"}}>Making a Better World with Better Engineering Education </h2>
+<p style={{position:"relative"}}>
+Vision: The vision of Indo Universal Collaboration for Engineering Education (IUCEE) is to improve the quality and global relevance<br/> of engineering education in India<br/>
+</p>
+<p style={{position:"relative",left:"30px"}}>
+Mission: The mission is to build an ecosystem for transforming engineering education in India with the assistance of engineering education<br/>experts and industry from around the world
+
+</p>
+
+
+   </div>
+
+   <div className="btn">
+    <button className='button'>Join us</button>
+
+   </div>
+   <img className='flo' src={flower}  alt=''/>
+  
+   
+    {/* <Card/> */}
+    <Text className="ne" ma="WHAT WE DO"/>
+    <Newcard/>
+    <Text ma="NEWS"/>
+   
+
+    
+  
+    </>
   )
 }
 
