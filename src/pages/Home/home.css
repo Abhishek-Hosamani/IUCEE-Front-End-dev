@@ -21,6 +21,16 @@
      height: 70vh;    */
 /* } */ 
 
+.carousel .control-dots .dot{
+   width: 16px !important;
+   height: 16px !important;
+}
+
+.carousel-root{
+   padding-top: 30px;
+   padding-bottom: 137px;
+}
+
 .carousel{
     margin: 0 auto;
    /* border: 1px solid black; */
@@ -33,6 +43,7 @@
    text-align: center;
    font-size: 32px;
    font-weight: bolder;
+   padding-bottom: 20px;
    font-family: "Manrope";
    color: #f3913b;
    
@@ -45,7 +56,10 @@
 .herocontainer p{
    
    font-size: 18px;
-   text-align: center;
+   position: relative;
+   left: 140px;
+   
+  
    font-weight: lighter;
    font-family: "Manrope";
 
