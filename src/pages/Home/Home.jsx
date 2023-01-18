@@ -7,9 +7,11 @@ import Newcard from '../../components/Cards/Newcard'
 import Text from "../../components/Text/Text"
 import flower from "../../assets/Vector.png"
 const Home = () => {
+  
   return (
    <>
-  <Carousel>
+   
+  <Carousel autoPlay={true}  showStatus={false}showThumbs={false}>
     <div className='carousel'>
    <img className="img"src={img} alt="" srcset="" width={"100%"} height={"60%"}/>
    </div>
@@ -31,7 +33,7 @@ const Home = () => {
 <p style={{position:"relative"}}>
 Vision: The vision of Indo Universal Collaboration for Engineering Education (IUCEE) is to improve the quality and global relevance<br/> of engineering education in India<br/>
 </p>
-<p style={{position:"relative",left:"30px"}}>
+<p style={{position:"relative"}}>
 Mission: The mission is to build an ecosystem for transforming engineering education in India with the assistance of engineering education<br/>experts and industry from around the world
 
 </p>

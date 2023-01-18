@@ -1,5 +1,5 @@
 .design h1{
-    font-size: 77px;
+    font-size: 120px;
   
   
     font-weight: bold;
@@ -19,7 +19,7 @@
       
    
       
-      font-size: 39px;
+      font-size: 69px;
        /* left:54px; */
   }
   
@@ -29,7 +29,7 @@
    
       display: flex;
      
-      margin-top: -83px;
+      margin-top: -140px;
       justify-content: center;
   }
   
