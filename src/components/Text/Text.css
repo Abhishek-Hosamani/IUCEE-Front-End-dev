@@ -19,11 +19,14 @@
       
    
       
-      font-size: 69px;
+      font-size: 4rem;
        /* left:54px; */
   }
   
-  
+  .main-text{
+    display: block;
+    margin-top: 16rem;
+  }
   
   .below{
    
@@ -34,16 +37,8 @@
   }
   
   .design{
-     
       display: flex;
-    
       margin-top: -100px;
       justify-content: center;
-  
-      
-      
   }
   
-  .ne{
-  
-  }

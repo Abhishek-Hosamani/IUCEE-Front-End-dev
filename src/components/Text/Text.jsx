@@ -3,6 +3,7 @@ import "../Text/Text.css"
 function Text(props) {
   return (
     <>
+    <div className='main-text'> 
     <div className="design">
         <h1>
             {props.ma}
@@ -16,6 +17,7 @@ function Text(props) {
           
         </h5>
        
+    </div>
     </div>
     </>
   )
