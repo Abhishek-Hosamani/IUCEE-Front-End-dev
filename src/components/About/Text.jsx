@@ -6,7 +6,6 @@ function Text(props) {
       <div className="design">
         <h1>
           {props.ma}
-
         </h1>
         <h5>
           {props.ma}
