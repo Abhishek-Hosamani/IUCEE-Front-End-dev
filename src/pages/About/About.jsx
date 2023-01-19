@@ -1,19 +1,26 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import { ROUTES } from '../../routes/RouterConfig'
+import History from 'src\components\About\history.js'
+import Collaboration from 'src\components\About\Collaboration.js'
+import './About.css'
+import Flower from './flower.png'
+
 
 const About = () => {
 
-    const navigate = useNavigate()
+  const navigate = useNavigate()
 
-    const changeDir = (dir) =>{
-        navigate(dir)
-    }
+  const changeDir = (dir) => {
+    navigate(dir)
+  }
 
   return (
-    <div className='About'>
-        <div className="text-3xl text-[green]">About Page</div>
-        <button className={`bg-[#3498db] p-[10px] text-[white] rounded-md hover:bg-[red] hover:text-[#3498db]`} onClick={()=>{changeDir(ROUTES.Home)}}>Go Back To Home</button>
+    <div className="Navbox">
+      <img src={Flower} className="FlowerBG" ></img>
+      <h1>Navbar</h1>
+      <History className="Hist_and_Vision" />
+      <Collaboration />
     </div>
   )
 }

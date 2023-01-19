@@ -1,0 +1,47 @@
+.design h1 {
+    font-size: 77px;
+
+
+    font-weight: bold;
+    left: 10px;
+    color: rgb(227, 222, 222);
+
+}
+
+
+
+h5 {
+
+    color: #F3913B;
+    /* position: relative;  */
+    /* top: 16px; */
+    font-weight: bold;
+    position: absolute;
+    top: 612px;
+
+
+
+    font-size: 39px;
+    /* left:54px; */
+}
+
+
+
+.below {
+
+    display: flex;
+
+    margin-top: -83px;
+    justify-content: center;
+}
+
+.design {
+
+    display: flex;
+
+    margin-top: -10px;
+    justify-content: center;
+
+
+
+}
