@@ -1,25 +1,35 @@
 
+.main{
+    box-sizing: border-box;
+    margin: 0;
+} 
 .container{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    /* position: absolute; */
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: center; */
 
-    align-items: center;
-    margin:0 auto;
+    /* align-items: center; */
+    /* margin:0 auto; */
     width: 100%;
     max-width: 1048px;
-    margin-top: 4.3rem;
-    font-size: 3rem;
-    font-weight: 800;
-    color: #F3913B;
+    /* margin-top: 4.3rem; */
+    /* font-size: 3rem; */
+    /* font-weight: 800; */
+    /* color: #F3913B; */
    
 }
 .container,.annual-title{
     max-width: 1048px;
 }
+
+
+.carousel-root {
+    padding-bottom: 50px;
+}
 .history-container{
     position: relative;
-    margin-top: 5rem;
+    margin-top: 2rem;
   
     background-color: #ffd6b1;
     width: 100%;
@@ -69,5 +79,9 @@
     color: #F3913B;
     border-bottom: solid 2px #F3913B ;
     padding-bottom:3px
+}
+
+.on-going-event{
+    margin:0;
 }
 

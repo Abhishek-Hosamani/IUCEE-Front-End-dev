@@ -1,7 +1,7 @@
 import React from "react";
 import './collaboration.css';
 import Image3 from './img3.jpeg';
-import Text from "./Text";
+import Text from "../Text/Text";
 function Collaboration() {
     return (
 
