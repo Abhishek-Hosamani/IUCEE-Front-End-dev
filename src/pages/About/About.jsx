@@ -1,6 +1,7 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import { ROUTES } from '../../routes/RouterConfig'
+
 import History from '../../components/About/History'
 import Collaboration from "../../components/About/Collaboration"
 import './About.css'
