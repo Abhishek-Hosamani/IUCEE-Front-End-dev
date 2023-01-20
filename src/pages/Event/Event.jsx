@@ -108,7 +108,7 @@ const Event = () => {
             <p>Summary 5</p>
           </details>
         </div>
-
+        
         <div className="on-going-event">
           <Text className="going-event" above="EVENTS" ma="ON GOING EVENTS"/>
         </div>
