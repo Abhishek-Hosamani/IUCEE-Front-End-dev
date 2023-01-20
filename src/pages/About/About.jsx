@@ -7,7 +7,6 @@ import Collaboration from "../../components/About/Collaboration"
 import './About.css'
 import Flower from './flower.png'
 
-
 const About = () => {
 
   const navigate = useNavigate()
@@ -19,7 +18,7 @@ const About = () => {
   return (
     <div className="Navbox">
       <img src={Flower} className="FlowerBG" ></img>
-      <h1>Navbar</h1>
+
       <History className="Hist_and_Vision" />
       <Collaboration />
     </div>

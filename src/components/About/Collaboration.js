@@ -6,8 +6,8 @@ function Collaboration() {
     return (
 
         <>
-            <div><h1 className="Backtext">COLLABORATION</h1><h2 className="Uppertext">COLLABORATION</h2></div>
-            {/* <Text ma="COLLABORATION" /> */}
+            {/* <div><h1 className="Backtext">COLLABORATION</h1><h2 className="Uppertext">COLLABORATION</h2></div> */}
+            <Text ma="COLLABORATION" above="COLABORATION" />
             <p id="textbelow">Making a Better World with better Engineering Education IUCEE</p>
             <div className="outerContainer">
                 <div className="Container_Ind">
