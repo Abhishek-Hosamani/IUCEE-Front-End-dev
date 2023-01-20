@@ -7,16 +7,12 @@ function Text(props) {
     <div className="design">
         <h1>
             {props.above}
-          
         </h1>
-       
     </div>
     <div className="below">
         <h5>
             {props.ma}
-          
         </h5>
-       
     </div>
     </div>
     </>
