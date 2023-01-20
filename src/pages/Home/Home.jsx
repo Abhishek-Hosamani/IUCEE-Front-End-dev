@@ -11,7 +11,7 @@ const Home = () => {
   return (
    <>
    
-  <Carousel autoPlay={true}  showStatus={false}showThumbs={false}>
+  <Carousel autoPlay={true} interval={3000} infiniteLoop={true} showStatus={false}showThumbs={false}>
     <div className='carousel'>
    <img className="img"src={img} alt="" srcset="" width={"100%"} height={"60%"}/>
    </div>
