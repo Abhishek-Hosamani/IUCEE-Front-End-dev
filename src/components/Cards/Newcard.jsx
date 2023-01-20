@@ -61,9 +61,7 @@ function Cards() {
              {image:four,text:"EVENTS"},
              {image:five,text:"Engineering Educator Certification"},
              {image:six,text:"Become a member"},
-          
-        
-             
+
  ]
  const [currentIndex,setCurrentIndex]=useState(0)
 

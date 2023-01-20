@@ -50,14 +50,10 @@ Mission: The mission is to build an ecosystem for transforming engineering educa
    
     {/* <Card/> */}
     <div>
-    <Text className="ne" ma="WHAT WE DO"/>
+    <Text className="ne"  above="WHAT WE DO" ma="WHAT WE DO"/>
     </div>
     <Newcard/>
-    <Text className="news-heading" ma="NEWS"/>
-   
-
-    
-  
+    <Text className="news-heading" above="NEWS" ma="NEWS"/>
     </>
   )
 }

@@ -6,7 +6,7 @@ function Text(props) {
     <div className='main-text'> 
     <div className="design">
         <h1>
-            {props.ma}
+            {props.above}
           
         </h1>
        
