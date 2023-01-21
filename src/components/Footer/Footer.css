@@ -2,7 +2,7 @@
 .Footer_container {
     background-color: #2B2B2B;
     color: white;
-    padding: 2%;
+    padding: 2em;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -11,7 +11,7 @@
 }
 
 .Footer_container p {
-    font-size: 20px;
+    font-size: 1.3rem;
     font-weight: 500;
     color: orange;
 }
@@ -44,4 +44,37 @@
 
 .Footer_container .SocialIcons .Social_icons {
     margin-left: 20px;
+}
+
+.information-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px 20px;
+}
+
+.helpful-link{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap:20px 20px;
+
+}
+/* .help1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap:20px 20px;
+} */
+
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px 20px;
 }

@@ -7,11 +7,15 @@ import Abtimg2 from '../../assets/AboutImages/Abtimg2.png'
 import Abtimg3 from '../../assets/AboutImages/Abtimg3.png'
 import Abtimg4 from '../../assets/AboutImages/Abtimg4.png'
 import Abtimg5 from '../../assets/AboutImages/Abtimg5.png'
+import styled from 'styled-components';
+
 
 
 
 
 function Collaboration() {
+
+ 
 
     const employees = [
         {
@@ -46,7 +50,7 @@ function Collaboration() {
         <>
             {/* <div><h1 className="Backtext">COLLABORATION</h1><h2 className="Uppertext">COLLABORATION</h2></div> */}
             <div className="outerContainer">
-                <Text ma="COLLABORATION" above="COLABORATION" />
+                <Text  className="collab" ma="COLLABORATION" above="COLLABORATION" />
                 <p id="textbelow">Making a Better World with better Engineering Education IUCEE</p>
                 <p>Indo Universal Collaboration for Engineering Education (IUCEE) is operated through two formal organizations
                 </p>

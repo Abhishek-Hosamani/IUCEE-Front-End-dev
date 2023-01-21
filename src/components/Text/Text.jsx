@@ -1,6 +1,8 @@
 import React from 'react'
 import "../Text/Text.css"
+
 function Text(props) {
+  
   return (
     <>
     <div className='main-text'> 

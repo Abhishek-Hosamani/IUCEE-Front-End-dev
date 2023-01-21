@@ -1,31 +1,36 @@
 import React from 'react'
 import { Icon } from '@iconify/react';
 import './Footer.css';
+import { Link } from 'react-router-dom';
+import About from '../../pages/About/About';
+import Home from '../../pages/Home/Home';
 
 function Footer() {
     return (
         <div className='OuterCont_foot'>
             <div className='Footer_container'>
-                <div >
+                <div className='information-container'>
                     <p>Information</p>
-                    <a >About us</a> <br></br>
-                    <a>More Searches</a><br></br>
-                    <a>Testimonials</a><br></br>
-                    <a>Blog</a><br></br>
-                    <a>Event</a><br></br>
+                    <Link to="#">About us</Link> 
+                    <Link to="#">More Searches</Link>
+                    <Link to="#">Testimonials</Link>
+                    <Link to="#">Blog</Link>
+                    <Link to="#">Event</Link>
                 </div>
-                <div>
+                <div className='helpful-link'>
+                   
                     <p>Helpful Links</p>
-                    <a>Services</a><br></br>
-                    <a>Supports</a><br></br>
-                    <a>Terms and Conditions</a><br></br>
-                    <a>Privacy Policy</a><br></br>
+                    <Link to="#">Services</Link>
+                    <Link to="#">Supports</Link>
+                    <Link to="#">Terms and Conditions</Link>
+                    <Link to="#">Privacy Policy</Link>
+                    
 
                 </div>
-                <div>
+                <div className='contact'>
                     <p>Contact</p>
-                    <a>+1234567890</a><br></br>
-                    <a>iucee@gmail.com</a><br></br>
+                    <Link to="#">+1234567890</Link>
+                    <Link to="#">iucee@gmail.com</Link>
                 </div>
                 <div className='SocialIcons'>
                     <Icon icon="cib:instagram" color="orange" width="35" className='Social_icons' />
@@ -44,4 +49,4 @@ function Footer() {
     )
 }
 
-export default Footer
+export default Footer;
