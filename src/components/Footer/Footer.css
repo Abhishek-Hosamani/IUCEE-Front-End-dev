@@ -1,0 +1,9 @@
+.Footer_container {
+    margin-top: 100%;
+    background-color: black;
+    padding: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}

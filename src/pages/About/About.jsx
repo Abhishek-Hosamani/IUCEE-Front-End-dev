@@ -6,7 +6,7 @@ import History from '../../components/About/History'
 import Collaboration from "../../components/About/Collaboration"
 import './About.css'
 import Flower from './flower.png'
-
+import Footer from '../../components/Footer/Footer.jsx'
 const About = () => {
 
   const navigate = useNavigate()
@@ -18,9 +18,9 @@ const About = () => {
   return (
     <div className="Navbox">
       <img src={Flower} className="FlowerBG" ></img>
-
-      <History className="Hist_and_Vision" />
+      <History className="Hist_and_Vision" /><br></br>
       <Collaboration />
+      <Footer />
     </div>
   )
 }
