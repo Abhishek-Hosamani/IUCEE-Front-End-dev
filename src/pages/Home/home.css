@@ -39,6 +39,30 @@
     padding-left: 1em;
 }
 
+.rhsbtns{
+   display: inline;
+
+
+}
+
+.rhsbtns button{
+   padding-left: 5rem;
+}
+
+.news-bottom{
+   padding-top: 20px;
+   display: flex;
+   justify-content: space-between;
+   padding-left: 6rem;
+   padding-right: 4rem;
+}
+
+/* .nxtbtn{
+   position: relative;
+
+   left:70em;
+} */
+
 .herocontainer h2{
    text-align: center;
    font-size: 32px;
