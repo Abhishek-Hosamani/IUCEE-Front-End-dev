@@ -1,6 +1,7 @@
 import React from 'react'
 import { Icon } from '@iconify/react';
 import './Footer.css';
+import { Link } from 'react-router-dom';
 
 function Footer() {
     return (
@@ -8,11 +9,11 @@ function Footer() {
             <div className='Footer_container'>
                 <div className='information-container'>
                     <p>Information</p>
-                    <a >About us</a> <br></br>
-                    <a>More Searches</a><br></br>
-                    <a>Testimonials</a><br></br>
-                    <a>Blog</a><br></br>
-                    <a>Event</a><br></br>
+                    <Link to="#">About us</Link> 
+                    <Link  to="#">More Searches</Link>
+                    <Link  to="#">Testimonials</Link>
+                    <Link  to="#">Blog</Link>
+                    <Link  to="#">Event</Link>
                 </div>
                 <div className='helpful-link'>
                    
