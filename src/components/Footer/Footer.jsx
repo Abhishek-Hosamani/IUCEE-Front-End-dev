@@ -1,10 +1,7 @@
 import React from 'react'
 import { Icon } from '@iconify/react';
-<<<<<<< HEAD
+
 // import './Footer.css'
-=======
-import './Footer.css';
->>>>>>> 9eecc8852accb3b8b218137baf732d03560c6120
 
 function Footer() {
     return (
