@@ -1,6 +1,10 @@
 import React from 'react'
 import { Icon } from '@iconify/react';
+<<<<<<< HEAD
+// import './Footer.css'
+=======
 import './Footer.css';
+>>>>>>> 9eecc8852accb3b8b218137baf732d03560c6120
 
 function Footer() {
     return (
@@ -8,7 +12,7 @@ function Footer() {
             <div className='Footer_container'>
                 <div >
                     <p>Information</p>
-                    <a >About us</a> <br></br>
+                    <a>About us</a> <br></br>
                     <a>More Searches</a><br></br>
                     <a>Testimonials</a><br></br>
                     <a>Blog</a><br></br>
