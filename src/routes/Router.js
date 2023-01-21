@@ -23,7 +23,7 @@ const Router = () => {
         <Routes>
             <Route exact path={ROUTES.Home} element={<RouteWithRole Element={Home} />}></Route>
             <Route exact path={ROUTES.About} element={<RouteWithRole Element={About} />}></Route>
-            <Route exact path={ROUTES.Navbar} element={<RouteWithRole Element={Navbar} />}></Route>
+            {/* <Route exact path={ROUTES.Navbar} element={<RouteWithRole Element={Navbar} />}></Route> */}
             <Route exact path={ROUTES.Event} element={<RouteWithRole Element={Event} />}></Route>
         </Routes>
     </div>
