@@ -7,20 +7,62 @@ h1 {
 .Navbox {
 
     width: 100%;
-    height: 400px;
+    height: 500px;
     background-color: #FFD6B1;
 }
-
-/* .Hist_and_Vision {
-    margin-left: 40px;
-  
-  } */
 
 .FlowerBG {
     position: absolute;
     width: 400px;
     height: 500px;
     left: 1100px;
-    top: 450px;
+    top: 35em;
     z-index: -1;
+}
+
+.Footer_container {
+    background-color: #2B2B2B;
+    color: white;
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    border-bottom: 2px solid white;
+}
+
+.Footer_container p {
+    font-size: 20px;
+    font-weight: 500;
+    color: orange;
+}
+
+
+.Footer_container .Social_icons {
+    width: 35px;
+    height: 35px;
+}
+
+.OuterCont_foot {
+    background-color: #2B2B2B;
+    color: white;
+    font-size: 15px;
+    padding: 2%;
+}
+
+.OuterCont_foot p {
+    margin-top: 25px;
+}
+
+.Footer_container .SocialIcons {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.Footer_container .SocialIcons .Social_icons {
+    margin-left: 20px;
 }
