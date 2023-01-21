@@ -1,0 +1,20 @@
+.newshead{
+   padding-top: 20px;
+   padding-left: 6rem;
+   padding-right: 6rem;
+   width: 100%;
+}
+
+.newshead li{
+   text-align: start;
+    width: 100%;
+    padding-top: 30px;
+    font-size: 18px;
+}
+
+.newshead h2{
+    color:#F3913B;
+    font-size: 32px;
+    font-weight: bolder;
+
+}

@@ -1,4 +1,5 @@
 import React from 'react'
+import axios from 'axios';
 import img from "../../assets/images/img1.png"
 import './home.css'
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
@@ -6,8 +7,60 @@ import { Carousel } from 'react-responsive-carousel';
 import Newcard from '../../components/Cards/Newcard'
 import Text from "../../components/Text/Text"
 import flower from "../../assets/Vector.png"
+import { useEffect } from 'react';
+import { useState } from 'react';
+import Paginagtion from '../../components/Pagination/Paginagtion';
 const Home = () => {
+  var url = 'https://newsapi.org/v2/everything?' +
+  'q=Apple&' +
+  'from=2023-01-21&' +
+  'sortBy=popularity&' +
+  'apiKey=d8f6137fec6b433a8b526d57e535a3ec';
+  const [news,setNews]=useState([]);
+  const [loading,setLoading]=useState(false);
+  const o=1;
+
+
+  const [current,setCurrent]=useState(o);
+  const [postsperpage,setPostsperpage]=useState(3);
+  const totalPosts=Math.ceil(news.length/postsperpage)
+  const change=()=>{
+    setCurrent(current+1);
+  }
+  const back=()=>{
+    if(current===1)
+    {
+      setCurrent(1)
+      return;
+    }
+    setCurrent(current-1);
+  }
+
+  useEffect(()=>{
+    const fun=async ()=>{
+      setLoading(true);
+      const res=await axios.get(url);
+      setNews(res.data.articles)
+      setLoading(false)
+      
+    }
+
+    fun();
+    
+
+  },[]);
+
+  const indexoflastpost=current*postsperpage;
+  const indexofFirstpost=indexoflastpost-postsperpage;
+  const currentpost=news.slice(indexofFirstpost,indexoflastpost);
+
+
+
+
+
+ 
   
+
   return (
    <>
    
@@ -54,6 +107,22 @@ Mission: The mission is to build an ecosystem for transforming engineering educa
     </div>
     <Newcard/>
     <Text className="news-heading" above="NEWS" ma="NEWS"/>
+    <section>
+
+      <Paginagtion loading={loading} posts={currentpost}/>
+      <div className='news-bottom'>
+        <h6>Page {current} of {totalPosts}</h6>
+        <div className="rhsbtns">
+        <button className='nxtbtn' onClick={back}>BACK </button>
+       <button className='nxtbtn' onClick={change}>NEXT</button>
+
+        </div>
+      
+        
+        </div>
+     
+    
+    </section>
     </>
   )
 }
