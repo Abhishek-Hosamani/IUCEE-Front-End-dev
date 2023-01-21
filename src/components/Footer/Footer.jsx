@@ -1,9 +1,6 @@
 import React from 'react'
 import { Icon } from '@iconify/react';
 import './Footer.css';
-import { Link } from 'react-router-dom';
-import About from '../../pages/About/About';
-import Home from '../../pages/Home/Home';
 
 function Footer() {
     return (
@@ -11,11 +8,11 @@ function Footer() {
             <div className='Footer_container'>
                 <div className='information-container'>
                     <p>Information</p>
-                    <Link to="#">About us</Link> 
-                    <Link to="#">More Searches</Link>
-                    <Link to="#">Testimonials</Link>
-                    <Link to="#">Blog</Link>
-                    <Link to="#">Event</Link>
+                    <a >About us</a> <br></br>
+                    <a>More Searches</a><br></br>
+                    <a>Testimonials</a><br></br>
+                    <a>Blog</a><br></br>
+                    <a>Event</a><br></br>
                 </div>
                 <div className='helpful-link'>
                    
