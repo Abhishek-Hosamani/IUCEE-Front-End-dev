@@ -6,6 +6,7 @@ import Home from "../pages/Home/Home"
 import { ROUTES } from './RouterConfig';
 import Navbar from '../components/Navbar/Navbar'
 import Event from '../pages/Event/Event';
+import Footer from '../components/Footer/Footer';
 const Router = () => {
 
     const RouteWithRole = ({ Element }) => {
