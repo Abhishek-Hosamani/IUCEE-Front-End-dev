@@ -18,6 +18,14 @@ const About = () => {
 
   return (
     <div className="Navbox">
+      <div className='iucee-heading'>
+        <h2 className='iucee-title'>IUCEE</h2>
+        <div className='home-about'>
+          <h5 className="home99 ">Home >> About</h5> 
+        </div>
+
+
+      </div>
       <img src={Flower} className="FlowerBG" ></img>
       <History className="Hist_and_Vision" /><br></br>
       <img src={Flow} alt="FlowerBG" className='Flow1'></img>
