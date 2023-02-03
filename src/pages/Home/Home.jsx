@@ -12,6 +12,7 @@ import { useEffect } from 'react';
 import { useState } from 'react';
 
 import Paginagtion from '../../components/Pagination/Paginagtion';
+import Footer from '../../components/Footer/Footer';
 const Home = () => {
   var url = 'https://newsapi.org/v2/everything?' +
   'q=Apple&' +
@@ -139,6 +140,9 @@ Mission: The mission is to build an ecosystem for transforming engineering educa
   
 
     </div>
+
+    <Footer/>
+    
   
     
     </>
