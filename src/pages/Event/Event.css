@@ -11,14 +11,25 @@
 
     /* align-items: center; */
     /* margin:0 auto; */
-    width: 100%;
-    max-width: 1048px;
+    /* width: 100%;
+    max-width: 1048px; */
+
+        margin: 0 auto;
+       /* border: 1px solid black; */
+        margin-top: 1.5em;
+        /* padding-right: 1em;
+        padding-left: 1em; */
+    
     /* margin-top: 4.3rem; */
     /* font-size: 3rem; */
     /* font-weight: 800; */
     /* color: #F3913B; */
    
 }
+.carousel-root{
+    padding-top: 30px;
+    padding-bottom: 137px;
+ }
 .container,.annual-title{
     max-width: 1048px;
 }

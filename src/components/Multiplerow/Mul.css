@@ -1,0 +1,111 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.car-slider{
+    width: 90%;
+    margin: 10rem auto;
+    height: 500px;
+}
+
+.arr{
+    width: 40px;
+    height: 40px;
+}
+
+.slic{
+    margin-bottom: 20px;
+    
+}
+
+
+
+.lower{
+    padding-left: 9px;
+    display: flex;
+}
+
+.upper .evim{
+    height: 160px;
+    width: 100%;
+    /* margin: 0 auto; */
+    /* border-top-left-radius: 10px;
+    border-top-right-radius: 10px; */
+}
+
+.slic{
+    transform:scale(0.9);
+    transition: transform 500ms ease-in-out;
+    opacity: 0.5;
+
+
+    height: 230px;
+    
+  
+    background-color: #FFD6B1;
+    border-radius: 40px;
+}
+
+
+
+/* .slick-slide .slic{
+   
+    
+        transform: scale(0.9);
+        transition: transform 500ms ease-in-out;
+        opacity: 0.5;
+        width: 20%;
+        height: 237px;
+        background-color: #FFD6B1;
+        border-radius: 26px;
+  
+   
+   
+  
+}
+.slick-center .slic{
+    transform: scale(1);
+    opacity: 1;
+    border-radius: 10px;
+
+} */
+
+.slick-slide.slick-active .slic{
+    transform:scale(0.8);
+    transition: transform 500ms ease-in-out;
+    opacity: 0.5;
+
+
+    height: 230px;
+    
+  
+    background-color: #FFD6B1;
+    border-radius: 40px;
+
+}
+
+
+.arrow{
+    position:absolute;
+    cursor: pointer;
+    z-index: 10;
+
+}
+
+.center .slick-center .slic{
+   
+    opacity: 1;
+
+    transform: scale(1);
+    border-radius: 40px;
+
+}
+
+.next{
+    right: 0%;
+    top:40%;
+}
+
+.prev{
+    left:0%;
+    top:40%;
+}

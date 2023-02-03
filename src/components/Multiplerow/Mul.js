@@ -1,19 +1,16 @@
-import { useState } from "react";
+import React from 'react'
 import Slider from "react-slick";
 import cat from "../../assets/AboutImages/test2.png"
 import eone from "../../assets/eveentone.png"
 import etwo from "../../assets/eventtwo.png";
 import ethree from "../../assets/eventthree.png";
-
-import "./Events.css"
+import { useState } from 'react';
 import left from "../../assets/left.png"
 import right from "../../assets/right.png"
+import "./Mul.css"
 
+function Mul() {
 
-const images=[cat,eone,ethree,etwo,cat,eone,ethree,etwo]
-
-
-function Events(props) {
 
   const NextArrow=({onClick})=>{
     return(
@@ -30,33 +27,34 @@ function Events(props) {
       )
 
   }
-
-  const [imageIndex,setImageIndex]=useState(0)
-
-  const settings={
-    infinite:true,
-    lazyload:true,
-    speed:300,
-   
-    slidesToShow:3,
-   
-
-    
-    centerMode:true,
-    centerPadding:"20px",
-    nextArrow:<NextArrow/>,
-    prevArrow:<PrevArrow/>,
-    beforeChange: (current,next)=>setImageIndex(next)
   
+    const images=[eone,etwo,ethree,eone,etwo,ethree,eone,etwo,ethree,eone,etwo,ethree]
+    const settings = {
+        className: "center",
+        centerMode: true,
+        infinite: true,
+        lazyload:true,
+      
+        centerPadding: "20px",
+        slidesToShow:3,
+        speed: 300,
+        rows: 2,
+        
+        nextArrow:<NextArrow/>,
+        prevArrow:<PrevArrow/>,
 
-  }
+        
+       
+      };
+    
   return (
-    <div className="car-slider">
-      <Slider {...settings}>
-      {images.map((img,idx)=>(
-        <div className={idx===imageIndex ? "sli activeSlide" : "sli"}>
+    <div className='car-slider'>
+        <Slider {...settings}>
+           {images.map((obj,idx)=>{
+            return(
+        <div className='slic'>
           <div className="upper">
-            <img className="evim"src={img} alt="img"/>
+            <img className="evim"src={obj} alt="img"/>
 
           </div>
           <div className="lower">
@@ -73,22 +71,13 @@ function Events(props) {
           </div>
         </div>
 
-      ))
-     
-      
-      }
-      
+            )
+           })}
+       
 
-
-
-      </Slider>
-
-
-      
-      
-      
-      </div>
+        </Slider>
+    </div>
   )
 }
 
-export default Events
+export default Mul

@@ -4,6 +4,8 @@ import Text from "../../components/Text/Text";
 import img from "../../assets/images/img1.png"
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
+import Mul from "../../components/Multiplerow/Mul";
+import Footer from "../../components/Footer/Footer";
 
 const Event = () => {
   return (
@@ -113,6 +115,31 @@ const Event = () => {
           <Text className="going-event" above="EVENTS" ma="ON GOING EVENTS"/>
         </div>
         </div>
+
+        <div>
+          <Mul/>
+        </div>
+
+        <div className="up-coming-event">
+          <Text className="going-event" above="EVENTS" ma="UP COMING EVENTS"/>
+        </div>
+
+        <div>
+          <Mul/>
+        </div>
+        <div className="past-event">
+          <Text className="going-event" above="EVENTS" ma="PAST EVENTS"/>
+        </div>
+
+        <div>
+          <Mul/>
+        </div>
+
+        <div>
+          <Footer/>
+        </div>
+
+      
     </>
   );
 };
