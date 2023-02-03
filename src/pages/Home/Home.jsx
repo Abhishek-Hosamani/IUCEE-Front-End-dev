@@ -1,5 +1,6 @@
 import React from 'react'
 import axios from 'axios';
+import Eve from "../../components/Events/Events"
 import img from "../../assets/images/img1.png"
 import './home.css'
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
@@ -9,6 +10,7 @@ import Text from "../../components/Text/Text"
 import flower from "../../assets/Vector.png"
 import { useEffect } from 'react';
 import { useState } from 'react';
+
 import Paginagtion from '../../components/Pagination/Paginagtion';
 const Home = () => {
   var url = 'https://newsapi.org/v2/everything?' +
@@ -123,6 +125,22 @@ Mission: The mission is to build an ecosystem for transforming engineering educa
      
     
     </section>
+    <div className='events'>
+    <Text  above="Recent Event" ma="Recent Events"/>
+
+    <Eve/>
+
+   
+
+ 
+
+
+
+  
+
+    </div>
+  
+    
     </>
   )
 }
