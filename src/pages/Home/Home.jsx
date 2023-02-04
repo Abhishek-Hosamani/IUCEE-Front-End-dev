@@ -10,6 +10,7 @@ import Text from "../../components/Text/Text"
 import flower from "../../assets/Vector.png"
 import { useEffect } from 'react';
 import { useState } from 'react';
+import Cur from "../../components/Curvedcar/Curved"
 
 import Paginagtion from '../../components/Pagination/Paginagtion';
 import Footer from '../../components/Footer/Footer';
@@ -127,9 +128,18 @@ Mission: The mission is to build an ecosystem for transforming engineering educa
     
     </section>
     <div className='events'>
-    <Text  above="Recent Event" ma="Recent Events"/>
+    <Text  above="RECENT EVENT" ma="RECENT EVENTS"/>
 
     <Eve/>
+
+
+
+    <Text  above="RECENT PHOTOS" ma="RECENT PHOTOS"/>
+    <Cur/>
+
+    
+
+
 
    
 

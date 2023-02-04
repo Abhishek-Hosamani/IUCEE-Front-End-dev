@@ -1,0 +1,51 @@
+.body-cur{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding: 60px 0;
+    grid:1fr min-content min-content 1fr/1fr;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.wrap-img{
+    width: auto;
+}
+
+
+.sect-car::after,.sect-car::before{
+    content: "";
+    display: block;
+    background: #fff;
+    width: calc(100vw+2*60px);
+    height: 130px;
+    position:absolute;
+    border-radius: 40%;
+    left: calc(-1*60px);
+    right: calc(-1*60px);
+}
+
+.sect-car::before{
+    top:calc(-0.6*120px);
+}
+
+.sect-car::after{
+    bottom:calc(-0.6*120px);
+}
+.sect-car{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-rows:300px;
+    overflow: auto;
+    grid-auto-flow: column;
+    scroll-snap-type: x mandatory;
+}
+
