@@ -10,7 +10,7 @@ import left from "../../assets/left.png"
 import right from "../../assets/right.png"
 
 
-const images=[cat,eone,ethree,etwo,cat,eone,ethree,etwo]
+const images=[eone,ethree,etwo,eone,ethree,etwo]
 
 
 function Events(props) {
@@ -60,16 +60,25 @@ function Events(props) {
 
           </div>
           <div className="lower">
-            <div className="date">
-              25 nov
+          <div className="date">
+              <h4 style={{color:"#F3913B"}}>NOV</h4>
+              <h4 className='num' style={{color:"#FFF"}}>20</h4>
+          
+              
 
             </div>
             <div className="desc">
-              Lorem ipsum dolor sit amet consectetur.
+            Indonesia - Korea Conference
+            <br/>
+           Soehanna, Daerah Khusus Ibukota
+           <br/>
+           Yogyakarta, Indonesia
 
             </div>
            
 
+   
+          
           </div>
         </div>
 
