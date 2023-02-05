@@ -10,14 +10,14 @@ import Footer from "../../components/Footer/Footer";
 const Event = () => {
   return (
     <>
-      <div className="main">
-        <div className="container">
+     
+        <div className="evecontainer">
           {/* <h2 className="annual-title">ANNUAL LEADERSHIP SUMMIT</h2>
            */}
 
           <Carousel autoPlay={true} interval={3000} infiniteLoop={true} showStatus={false} showThumbs={false}
           showArrows={true} 
-          swipeable={true} 
+        
           
           >
             <div className="carousel">
@@ -52,7 +52,7 @@ const Event = () => {
               />
             </div>
           </Carousel>
-        </div>
+        
 
         <div className="history-container">
           <div className="history">

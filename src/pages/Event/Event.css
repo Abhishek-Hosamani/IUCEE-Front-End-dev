@@ -1,9 +1,7 @@
 
-.main{
-    box-sizing: border-box;
-    margin: 0;
-} 
-.container{
+
+.evecontainer{
+
     /* position: absolute; */
     /* display: flex; */
     /* flex-direction: row; */
@@ -11,12 +9,13 @@
 
     /* align-items: center; */
     /* margin:0 auto; */
-    /* width: 100%;
-    max-width: 1048px; */
+     width: 100%;
 
-        margin: 0 auto;
+
+        margin: 0;
        /* border: 1px solid black; */
-        margin-top: 1.5em;
+        /* margin-top: 1.5em; */
+      
         /* padding-right: 1em;
         padding-left: 1em; */
     

@@ -12,8 +12,13 @@
     height: 40px;
 }
 
+.sli{
+    height: 261px;
+}
+
 .sli.activeSlide{
     border-radius: 19px;
+
   
 }
 
@@ -44,6 +49,10 @@
   
 }
 
+
+.sli.lower .date{
+    padding-left: 18px;
+}
 .activeSlide{
      transform: scale(1); 
     opacity: 1;
