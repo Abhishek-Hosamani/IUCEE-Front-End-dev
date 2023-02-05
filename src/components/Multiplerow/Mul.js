@@ -59,11 +59,18 @@ function Mul() {
           </div>
           <div className="lower">
             <div className="date">
-              25 nov
+              <h4 style={{color:"#F3913B"}}>NOV</h4>
+              <h4 className='num' style={{color:"#FFF"}}>20</h4>
+          
+              
 
             </div>
             <div className="desc">
-              Lorem ipsum dolor sit amet consectetur.
+            Indonesia - Korea Conference
+            <br/>
+           Soehanna, Daerah Khusus Ibukota
+           <br/>
+           Yogyakarta, Indonesia
 
             </div>
            
