@@ -42,7 +42,7 @@
     
   
     background-color: #FFD6B1;
-    border-radius: 40px;
+    border-radius: 20px;
 }
 
 
@@ -75,7 +75,8 @@
     opacity: 0.5;
 
 
-    height: 230px;
+    height: 263px;
+    width: 10px;
     
   
     background-color: #FFD6B1;
@@ -91,12 +92,34 @@
 
 }
 
+.lower{
+    padding-top: 20px;
+    display: flex;
+    height: 25%;
+    justify-content: center;
+    align-items: center;
+    padding-left: 46px;
+    width: fit-content;
+}
+.lower .desc{
+    padding-left: 15px;
+
+}
+
+.lower .date{
+    display: flex;
+    flex-direction: column;
+  
+}
+.lower .date .num{
+    padding-left: 4px;
+}
 .center .slick-center .slic{
    
     opacity: 1;
 
     transform: scale(1);
-    border-radius: 40px;
+    border-radius: 20px;
 
 }
 
